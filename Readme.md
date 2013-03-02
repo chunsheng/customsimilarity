@@ -1,0 +1,1 @@
+Custom similarity does not work on elastic search 0.90.x

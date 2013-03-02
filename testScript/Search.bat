@@ -1,0 +1,1 @@
+curl -XGET localhost:9200/test/_search  --data-binary @SearchQuery.txt

@@ -1,0 +1,20 @@
+{
+  "from": 0,
+  "size": 10,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "term": {
+            "message": "test"
+          }
+        },
+        {
+          "term": {
+            "message": "similarity"
+          }
+        }
+      ]
+    }
+  }
+}
